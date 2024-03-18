@@ -34,10 +34,9 @@
                 <img src="images/IMG_20240317_105034.jpg" alt="Reuben" height="500">
                 <div class="overlay"></div>
             </div>
-            <h3>Languages</h3>
             <p>
-            <table border="10px">
-                    <tr>
+               <table border="10px">
+                    <tr><h3>Languages</h3>
                         <th>English</th>
                         <th>Kiswahili</th>
                         <th>Kikuyu</th>
@@ -46,6 +45,24 @@
                         <td>75% </td>
                         <td>50%</td>
                         <td>55%</td>
+                    </tr>
+                </table>
+            </p>
+            <p>
+                <table border="10px">
+                    <tr><h3>Skills</h3>
+                        <th>Communication</th>
+                        <th>Leadership</th>
+                        <th>Design</th>
+                        <th>Teamwork</th>
+                        <th>Adaptabily</th>
+                    </tr>
+                    <tr>
+                        <td>70%</td>
+                        <td>85%</td>
+                        <td>45%</td>
+                        <td>75%</td>
+                        <td>90%</td>
                     </tr>
                 </table>
             </p>
@@ -61,10 +78,20 @@
             <img src="images/Screenshot from 2024-03-17 13-14-03.png" alt="git hub repositories" height="900">
         </div>
     </section>
-    <section id="contact" class="section">
+    <section class="section">
         <h2>Contact</h2>
         <p>0113786810</p>
         <p>@reuben.kamau@student.moringaschool.com</p>
+        <span>Send Me Your details</span>
+        <form action="#form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
     </section>
     <footer>
         <p>&copy;2024 My Portfolio</p>
